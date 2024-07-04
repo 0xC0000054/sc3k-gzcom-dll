@@ -6,6 +6,7 @@ class cISC3AgentTypeTree;
 class cISC3City;
 class cISC3CityDefinition;
 class cISC3CitySchemeMgr;
+class cISC3Internet;
 class cISC3OccupantAttribCache;
 class cISC3WinCityView;
 
@@ -48,7 +49,7 @@ public:
     virtual intptr_t GetSC3MainWindow(void) = 0;
     virtual cISC3WinCityView* GetISC3WinCityView(void) = 0;
     virtual void SetWinCityView(cISC3WinCityView*) = 0;
-    virtual intptr_t GetSC3Internet(void) = 0; // Returns cISC3Internet*
+    virtual cISC3Internet* GetSC3Internet(void) = 0;
     virtual cISC3CitySchemeMgr* CitySchemeManager(void) = 0;
 
     virtual bool Quit(bool, bool) = 0;

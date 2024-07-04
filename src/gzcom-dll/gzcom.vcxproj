@@ -99,6 +99,7 @@
     <ClInclude Include="include\cISC3City.h" />
     <ClInclude Include="include\cISC3CityDefinition.h" />
     <ClInclude Include="include\cISC3CitySchemeMgr.h" />
+    <ClInclude Include="include\cISC3Internet.h" />
     <ClInclude Include="include\cISC3OccupantAttribCache.h" />
     <ClInclude Include="include\cISC3PluginBuildingMgr.h" />
     <ClInclude Include="include\cRZAutoRefCount.h" />
