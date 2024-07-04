@@ -1,6 +1,7 @@
 #include "cIGZUnknown.h"
 
 class cIGZCheatCodeManager;
+class cIGZRadio;
 class cIGZString;
 class cISC3AgentTypeTree;
 class cISC3City;
@@ -26,7 +27,7 @@ public:
     virtual bool PreCityLoad(void) = 0;
 
     virtual cIGZCheatCodeManager* GetCheatCodeManager(void) = 0;
-    virtual intptr_t GetRadio(void) = 0; // Returns cIGZRadio*
+    virtual cIGZRadio* GetRadio(void) = 0;
     virtual intptr_t GetBoxX(void) = 0;
     virtual intptr_t GetSoundRenderServer(void) = 0;
     virtual intptr_t GetAppStateManager(void) = 0;
