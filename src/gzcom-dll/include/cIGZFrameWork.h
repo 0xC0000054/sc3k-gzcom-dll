@@ -8,6 +8,7 @@ class cIGZCOM;
 class cIGZExceptionNotification;
 class cIGZFrameWorkHooks;
 class cIGZSystemService;
+class cIGZUnknownEnumerator;
 
 /**
  * @brief A root service for Gonzo applications
@@ -61,11 +62,8 @@ class cIGZFrameWork : public cIGZUnknown
 
 		/**
 		 * @brief Uses a cIGZUnknownEnumerator to iterate over system services
-		 *
-		 * This function is generally unusable since the structure for the
-		 * UnknownEnumerator is... well... unknown.
 		 */
-		virtual bool EnumSystemServices(void* enumerator, cIGZUnknown* pUnknown, uint32_t dwUnknown) = 0; // ??? - enumerator is a function but what is prototype?
+		virtual bool EnumSystemServices(cIGZUnknownEnumerator& enumerator, cIGZUnknown* pUnknown, uint32_t dwUnknown) = 0;
 
 		/**
 		 * @brief Subscribes an object to framework event callbacks
