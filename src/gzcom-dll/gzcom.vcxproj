@@ -87,6 +87,8 @@
     <ClInclude Include="include\cIGZFileSystem.h" />
     <ClInclude Include="include\cIGZFrameWork.h" />
     <ClInclude Include="include\cIGZFrameWorkHooks.h" />
+    <ClInclude Include="include\cIGZLanguageManager.h" />
+    <ClInclude Include="include\cIGZLanguageUtility.h" />
     <ClInclude Include="include\cIGZMessageServer.h" />
     <ClInclude Include="include\cIGZMessageTarget.h" />
     <ClInclude Include="include\cIGZRadio.h" />
