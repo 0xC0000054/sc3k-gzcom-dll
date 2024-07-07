@@ -1,7 +1,7 @@
 #pragma once
 #include "cIGZUnknown.h"
 
-static const uint32_t GZIID_cIGZSystemService = 0x287fb697;
+static const uint32_t GZIID_cIGZSystemService = 0x6c;
 
 /**
  * @brief An interface for services that provide helpers and run on ticks
