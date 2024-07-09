@@ -7,6 +7,7 @@ class cIGZDBSegment;
 class cIGZString;
 class cISC2Importer;
 class cISC3BaseAdvisor;
+class cISC3BudgetLayer;
 class cISC3CityDefinition;
 class cISC3CityEnumerator;
 class cISC3CityLayer;
@@ -116,7 +117,7 @@ public:
     virtual intptr_t PowerLayer(void) = 0;
     virtual intptr_t PlumbingLayer(void) = 0;
     virtual intptr_t OrdinanceLayer(void) = 0;
-    virtual intptr_t BudgetLayer(void) = 0;
+    virtual cISC3BudgetLayer* BudgetLayer(void) = 0;
     virtual intptr_t WorldLayer(void) = 0;
     virtual intptr_t StrtSimLayer(void) = 0;
     virtual intptr_t DisasterLayer(void) = 0;
