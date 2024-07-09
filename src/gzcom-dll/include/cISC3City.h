@@ -155,10 +155,10 @@ public:
     virtual bool StartCitySimulation(void) = 0;
     virtual bool EndCitySimulation(void) = 0;
 
-    virtual void GetDate(uint32_t&, uint32_t&) = 0;
-    virtual void GetDate(uint32_t&, uint32_t&, uint32_t&) = 0;
-    virtual bool SetDate(uint32_t, uint32_t) = 0;
-    virtual bool SetDate(uint32_t, uint32_t, uint32_t) = 0;
+    virtual void GetDate(uint32_t& dayOfYear, uint32_t& year) = 0;
+    virtual void GetDate(uint32_t& month, uint32_t& day, uint32_t& year) = 0;
+    virtual bool SetDate(uint32_t dayOfYear, uint32_t year) = 0;
+    virtual bool SetDate(uint32_t month, uint32_t day, uint32_t year) = 0;
     virtual uint32_t GetYearBorn(void) = 0;
     virtual bool SetYearBorn(uint32_t) = 0;
     virtual void SimCalendarNotification(int32_t) = 0;
