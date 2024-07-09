@@ -34,36 +34,8 @@ class cRZBaseString : public cIGZString
 		char const* Data(void) const;
 
 		uint32_t Strlen(void) const;
-		bool IsEqual(cIGZString const* szOther, bool bCaseSensitive) const;
-		bool IsEqual(cIGZString const& szOther, bool bCaseSensitive) const;
-		bool IsEqual(char const* pszOther, uint32_t dwLength, bool bCaseSensitive) const;
-
-		int32_t CompareTo(cIGZString const& szOther, bool bCaseSensitive) const;
-		int32_t CompareTo(char const* pszOther, uint32_t dwLength, bool bCaseSensitive) const;
-
-		cIGZString& operator=(cIGZString const& szOther);
-
+		bool IsEqual(cIGZString const* szOther) const;
 		int32_t Copy(cIGZString const& szOther);
-		int32_t Resize(uint32_t dwNewSize);
-
-		cIGZString* Append(char const* pszOther, uint32_t dwLength);
-		cIGZString* Append(cIGZString const& szOther);
-		cIGZString* Insert(uint32_t dwPos, char const* pszOther, uint32_t dwLength);
-		cIGZString* Insert(uint32_t dwPos, cIGZString const& szOther);
-		cIGZString* Replace(uint32_t dwStartPos, char const* pszOther, uint32_t dwLength);
-		cIGZString* Replace(uint32_t dwStartPos, cIGZString const& szOther);
-		cIGZString* Erase(uint32_t dwStartPos, uint32_t dwEndPos);
-
-		int32_t Find(char const* pszOther, uint32_t dwPos, bool bCaseSensitive) const;
-		int32_t Find(cIGZString const& szOther, uint32_t dwPos, bool bCaseSensitive) const;
-
-		int32_t RFind(char const* pszOther, uint32_t dwPos, bool bCaseSensitive) const;
-		int32_t RFind(cIGZString const& szOther, uint32_t dwPos, bool bCaseSensitive) const;
-
-		cIGZString* Sprintf(char const* pszFormat, ...);
-
-		cRZBaseString* MakeUpper(void);
-		cRZBaseString* MakeLower(void);
 
 	protected:
 		std::string szData;

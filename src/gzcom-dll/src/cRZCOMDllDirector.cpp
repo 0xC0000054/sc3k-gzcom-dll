@@ -150,7 +150,7 @@ void cRZCOMDllDirector::EnumClassObjects(ClassObjectEnumerationCallback pCallbac
 }
 
 bool cRZCOMDllDirector::ModulePath(cIGZString& sLibraryPath) {
-	sLibraryPath = msLibraryPath;
+	sLibraryPath.Copy( msLibraryPath);
 	return true;
 }
 
