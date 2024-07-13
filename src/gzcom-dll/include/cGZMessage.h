@@ -19,7 +19,7 @@ class cGZMessage
 		}
 
 		/**
-		 * A constructor that initializes a message type and sets data to zero
+		 * A constructor that initializes a message type and data
 		 * @param dwMessageType The type to assign to the message
 		 * @param dwData1 The data to assign to the message
 		 * @param dwData2 The data to assign to the message
