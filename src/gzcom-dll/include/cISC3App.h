@@ -5,6 +5,7 @@ class cIGZCheatCodeManager;
 class cIGZRadio;
 class cIGZString;
 class cISC3AgentTypeTree;
+class cISC3AppPreferences;
 class cISC3City;
 class cISC3CityDefinition;
 class cISC3CitySchemeMgr;
@@ -42,7 +43,7 @@ public:
 
     virtual intptr_t GetResourceManager(void) = 0; // Returns cIGZResourceManager*
     virtual intptr_t GetBufferResourceFactory(void) = 0;
-    virtual intptr_t GetAppPreferences(void) = 0;
+    virtual cISC3AppPreferences* GetAppPreferences(void) = 0;
     virtual intptr_t GetSystemPerformanceInfo(void) = 0;
 
     virtual void FixStartupResolutionValuesIfNeeded(uint32_t&, uint32_t&) = 0;
