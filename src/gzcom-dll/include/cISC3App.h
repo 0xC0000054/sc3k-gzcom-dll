@@ -3,6 +3,7 @@
 
 class cIGZCheatCodeManager;
 class cIGZRadio;
+class cIGZResourceManager;
 class cIGZString;
 class cISC3AgentTypeTree;
 class cISC3AppPreferences;
@@ -41,7 +42,7 @@ public:
     virtual void GetAppDataDirectory(cIGZString&) = 0;
     virtual void GetAppDirectory(cIGZString&) = 0;
 
-    virtual intptr_t GetResourceManager(void) = 0; // Returns cIGZResourceManager*
+    virtual cIGZResourceManager* GetResourceManager(void) = 0;
     virtual intptr_t GetBufferResourceFactory(void) = 0;
     virtual cISC3AppPreferences* GetAppPreferences(void) = 0;
     virtual intptr_t GetSystemPerformanceInfo(void) = 0;
