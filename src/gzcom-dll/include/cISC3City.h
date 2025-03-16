@@ -11,8 +11,11 @@ class cISC3BudgetLayer;
 class cISC3CityDefinition;
 class cISC3CityEnumerator;
 class cISC3CityLayer;
+class cISC3CommercialLayer;
+class cISC3IndustrialLayer;
 class cISC3NewCityInfo;
 class cISC3OccupantAttrib;
+class cISC3ResidentialLayer;
 
 class cISC3City : public cIGZUnknown
 {
@@ -125,9 +128,9 @@ public:
     virtual intptr_t CrimeLayer(void) = 0;
     virtual intptr_t PoliceLayer(void) = 0;
     virtual intptr_t FireLayer(void) = 0;
-    virtual intptr_t ResidentialLayer(void) = 0;
-    virtual intptr_t CommercialLayer(void) = 0;
-    virtual intptr_t IndustrialLayer(void) = 0;
+    virtual cISC3ResidentialLayer* ResidentialLayer(void) = 0;
+    virtual cISC3CommercialLayer* CommercialLayer(void) = 0;
+    virtual cISC3IndustrialLayer* IndustrialLayer(void) = 0;
     virtual intptr_t LandValueLayer(void) = 0;
     virtual intptr_t NeighborsLayer(void) = 0;
     virtual intptr_t WeatherLayer(void) = 0;
