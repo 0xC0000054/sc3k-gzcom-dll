@@ -25,7 +25,7 @@ class cIGZSystemService : public cIGZUnknown
          * @param dwServiceId The ID to give this service
          * @return The "this" pointer
          */
-        virtual cIGZSystemService* SetServiceID(uint32_t dwServiceId) = 0;
+        virtual void SetServiceID(uint32_t dwServiceId) = 0;
 
         /**
          * @return This service's priority. Lower values yield more priority
@@ -41,7 +41,7 @@ class cIGZSystemService : public cIGZUnknown
          * @brief Toggles whether or not the service is currently running
          * @return The "this" pointer
          */
-        virtual cIGZSystemService* SetServiceRunning(bool bRunning) = 0;
+        virtual void SetServiceRunning(bool bRunning) = 0;
 
         /**
          * @brief A callback for post-framework initialization
