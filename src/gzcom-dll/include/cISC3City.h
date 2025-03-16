@@ -142,7 +142,7 @@ public:
     virtual intptr_t GetBudgetAdvisor(void) = 0;
     virtual intptr_t GetPetitionerManager(void) = 0;
 
-    virtual intptr_t GetSpecificLayer(uint32_t) = 0;
+    virtual cISC3CityLayer* GetSpecificLayer(uint32_t) = 0;
     virtual bool GetLayer(uint32_t, uint32_t, void**) = 0;
     virtual uint32_t NumberOfLayers(void) = 0;
     virtual bool GetLayerByIndex(uint32_t, uint32_t, void**) = 0;
