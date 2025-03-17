@@ -17,6 +17,7 @@ class cISC3IndustrialLayer;
 class cISC3NewCityInfo;
 class cISC3OccupantAttrib;
 class cISC3ResidentialLayer;
+class cISCNScenarioLayer;
 class cISSStrtSimLayer;
 class cISC3WorldLayer;
 
@@ -208,7 +209,7 @@ public:
     virtual bool StaticInit(cISC3CityDefinition*) = 0;
     virtual bool StaticShutdown(void) = 0;
 
-    virtual intptr_t ScenarioLayer(void) = 0;
+    virtual cISCNScenarioLayer* ScenarioLayer(void) = 0;
     virtual bool GetAdvisor(uint32_t, cISC3BaseAdvisor*&) = 0;
 
     virtual void SetTipOfTheDayNeeded(bool) = 0;

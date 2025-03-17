@@ -122,6 +122,7 @@
     <ClInclude Include="include\cISC3Valve.h" />
     <ClInclude Include="include\cISC3ValveLayer.h" />
     <ClInclude Include="include\cISC3WorldLayer.h" />
+    <ClInclude Include="include\cISCNScenarioLayer.h" />
     <ClInclude Include="include\cISSStrtSimLayer.h" />
     <ClInclude Include="include\cRZAutoRefCount.h" />
     <ClInclude Include="include\cRZBaseString.h" />
