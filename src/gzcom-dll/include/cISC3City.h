@@ -3,8 +3,10 @@
 
 class cGZMessage;
 class cGZResourceKey;
+class cIGZClock;
 class cIGZDBSegment;
 class cIGZString;
+class cICSCitySimulator;
 class cISC2Importer;
 class cISC3BaseAdvisor;
 class cISC3BudgetLayer;
@@ -159,7 +161,7 @@ public:
     virtual uint32_t GetLayerList(uint32_t, cISC3CityLayer**) = 0;
     virtual bool DoEnumLayers(cGZMessage&, cISC3CityEnumerator&) = 0;
 
-    virtual intptr_t CitySimulator(void) = 0;
+    virtual cICSCitySimulator* CitySimulator(void) = 0;
     virtual bool StartCitySimulation(void) = 0;
     virtual bool EndCitySimulation(void) = 0;
 
@@ -171,7 +173,7 @@ public:
     virtual bool SetYearBorn(uint32_t) = 0;
     virtual void SimCalendarNotification(int32_t) = 0;
 
-    virtual intptr_t GetSimulationClock(void) = 0;
+    virtual cIGZClock* GetSimulationClock(void) = 0;
     virtual bool SetGameSpeed(int32_t) = 0;
     virtual int32_t GetGameSpeed(void) = 0;
 
