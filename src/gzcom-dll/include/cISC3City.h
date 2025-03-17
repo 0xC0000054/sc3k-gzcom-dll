@@ -17,6 +17,8 @@ class cISC3IndustrialLayer;
 class cISC3NewCityInfo;
 class cISC3OccupantAttrib;
 class cISC3ResidentialLayer;
+class cISSStrtSimLayer;
+class cISC3WorldLayer;
 
 class cISC3City : public cIGZUnknown
 {
@@ -122,8 +124,8 @@ public:
     virtual intptr_t PlumbingLayer(void) = 0;
     virtual intptr_t OrdinanceLayer(void) = 0;
     virtual cISC3BudgetLayer* BudgetLayer(void) = 0;
-    virtual intptr_t WorldLayer(void) = 0;
-    virtual intptr_t StrtSimLayer(void) = 0;
+    virtual cISC3WorldLayer* WorldLayer(void) = 0;
+    virtual cISSStrtSimLayer* StrtSimLayer(void) = 0;
     virtual cISC3DisasterLayer* DisasterLayer(void) = 0;
     virtual intptr_t PollutionLayer(void) = 0;
     virtual intptr_t CrimeLayer(void) = 0;

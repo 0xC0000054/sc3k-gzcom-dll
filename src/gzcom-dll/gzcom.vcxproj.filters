@@ -162,6 +162,12 @@
     <ClInclude Include="include\cISC3DisasterManager.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\cISSStrtSimLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cISC3WorldLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\cRZBaseString.cpp">
