@@ -12,6 +12,7 @@ class cISC3CityDefinition;
 class cISC3CityEnumerator;
 class cISC3CityLayer;
 class cISC3CommercialLayer;
+class cISC3DisasterLayer;
 class cISC3IndustrialLayer;
 class cISC3NewCityInfo;
 class cISC3OccupantAttrib;
@@ -123,7 +124,7 @@ public:
     virtual cISC3BudgetLayer* BudgetLayer(void) = 0;
     virtual intptr_t WorldLayer(void) = 0;
     virtual intptr_t StrtSimLayer(void) = 0;
-    virtual intptr_t DisasterLayer(void) = 0;
+    virtual cISC3DisasterLayer* DisasterLayer(void) = 0;
     virtual intptr_t PollutionLayer(void) = 0;
     virtual intptr_t CrimeLayer(void) = 0;
     virtual intptr_t PoliceLayer(void) = 0;
