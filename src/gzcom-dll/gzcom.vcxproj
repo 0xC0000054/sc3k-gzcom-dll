@@ -105,6 +105,7 @@
     <ClInclude Include="include\cISC3AgentTypeTree.h" />
     <ClInclude Include="include\cISC3App.h" />
     <ClInclude Include="include\cISC3AppPreferences.h" />
+    <ClInclude Include="include\cISC3BaseAdvisor.h" />
     <ClInclude Include="include\cISC3BudgetLayer.h" />
     <ClInclude Include="include\cISC3City.h" />
     <ClInclude Include="include\cISC3CityAgent.h" />
