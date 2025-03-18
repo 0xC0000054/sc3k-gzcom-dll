@@ -16,12 +16,14 @@ class cISC3CityLayer;
 class cISC3CommercialLayer;
 class cISC3DisasterLayer;
 class cISC3IndustrialLayer;
+class cISC3LandValueLayer;
 class cISC3NewCityInfo;
 class cISC3OccupantAttrib;
 class cISC3ResidentialLayer;
 class cISCNScenarioLayer;
 class cISSStrtSimLayer;
 class cISC3WorldLayer;
+class cISC3ZoneLayer;
 
 class cISC3City : public cIGZUnknown
 {
@@ -122,7 +124,7 @@ public:
     virtual intptr_t TransitLayer(void) = 0;
     virtual intptr_t TrafficLayer(void) = 0;
     virtual intptr_t FloraLayer(void) = 0;
-    virtual intptr_t ZoneLayer(void) = 0;
+    virtual cISC3ZoneLayer* ZoneLayer(void) = 0;
     virtual intptr_t PowerLayer(void) = 0;
     virtual intptr_t PlumbingLayer(void) = 0;
     virtual intptr_t OrdinanceLayer(void) = 0;
@@ -137,7 +139,7 @@ public:
     virtual cISC3ResidentialLayer* ResidentialLayer(void) = 0;
     virtual cISC3CommercialLayer* CommercialLayer(void) = 0;
     virtual cISC3IndustrialLayer* IndustrialLayer(void) = 0;
-    virtual intptr_t LandValueLayer(void) = 0;
+    virtual cISC3LandValueLayer* LandValueLayer(void) = 0;
     virtual intptr_t NeighborsLayer(void) = 0;
     virtual intptr_t WeatherLayer(void) = 0;
     virtual intptr_t DemolitionLayer(void) = 0;

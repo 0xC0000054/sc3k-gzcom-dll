@@ -118,12 +118,14 @@
     <ClInclude Include="include\cISC3DisasterManager.h" />
     <ClInclude Include="include\cISC3IndustrialLayer.h" />
     <ClInclude Include="include\cISC3Internet.h" />
+    <ClInclude Include="include\cISC3LandValueLayer.h" />
     <ClInclude Include="include\cISC3OccupantAttribCache.h" />
     <ClInclude Include="include\cISC3PluginBuildingMgr.h" />
     <ClInclude Include="include\cISC3ResidentialLayer.h" />
     <ClInclude Include="include\cISC3Valve.h" />
     <ClInclude Include="include\cISC3ValveLayer.h" />
     <ClInclude Include="include\cISC3WorldLayer.h" />
+    <ClInclude Include="include\cISC3ZoneLayer.h" />
     <ClInclude Include="include\cISCNScenarioLayer.h" />
     <ClInclude Include="include\cISSStrtSimLayer.h" />
     <ClInclude Include="include\cRZAutoRefCount.h" />
