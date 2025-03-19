@@ -8,6 +8,10 @@ class cIGZDBSegment;
 class cIGZString;
 class cICSCitySimulator;
 class cISC2Importer;
+class cISC3AdvisorForBudget;
+class cISC3AdvisorForDemographics;
+class cISC3AdvisorForTransportation;
+class cISC3AdvisorForUtilities;
 class cISC3BaseAdvisor;
 class cISC3BudgetLayer;
 class cISC3CityDefinition;
@@ -145,13 +149,13 @@ public:
     virtual intptr_t WeatherLayer(void) = 0;
     virtual intptr_t DemolitionLayer(void) = 0;
 
-    virtual intptr_t GetUtilityAdvisor(void) = 0;
-    virtual intptr_t GetDemographicsAdvisor(void) = 0;
+    virtual cISC3AdvisorForUtilities* GetUtilityAdvisor(void) = 0;
+    virtual cISC3AdvisorForDemographics* GetDemographicsAdvisor(void) = 0;
     virtual intptr_t GetPublicSafetyAdvisor(void) = 0;
     virtual intptr_t GetEnvironmentAdvisor(void) = 0;
     virtual intptr_t GetCityPlanningAdvisor(void) = 0;
-    virtual intptr_t GetTransportationAdvisor(void) = 0;
-    virtual intptr_t GetBudgetAdvisor(void) = 0;
+    virtual cISC3AdvisorForTransportation* GetTransportationAdvisor(void) = 0;
+    virtual cISC3AdvisorForBudget* GetBudgetAdvisor(void) = 0;
     virtual cISC3PetitionerManager* GetPetitionerManager(void) = 0;
 
     virtual cISC3CityLayer* GetSpecificLayer(uint32_t) = 0;

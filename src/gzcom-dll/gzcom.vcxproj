@@ -102,6 +102,10 @@
     <ClInclude Include="include\cIGZUnknown.h" />
     <ClInclude Include="include\cIGZUnknownEnumerator.h" />
     <ClInclude Include="include\cIGZUnknownList.h" />
+    <ClInclude Include="include\cISC3AdvisorForBudget.h" />
+    <ClInclude Include="include\cISC3AdvisorForDemographics.h" />
+    <ClInclude Include="include\cISC3AdvisorForTransportation.h" />
+    <ClInclude Include="include\cISC3AdvisorForUtilities.h" />
     <ClInclude Include="include\cISC3AgentTypeTree.h" />
     <ClInclude Include="include\cISC3App.h" />
     <ClInclude Include="include\cISC3AppPreferences.h" />
