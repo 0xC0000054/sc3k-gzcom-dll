@@ -9,7 +9,10 @@ class cIGZString;
 class cICSCitySimulator;
 class cISC2Importer;
 class cISC3AdvisorForBudget;
+class cISC3AdvisorForCityPlanning;
 class cISC3AdvisorForDemographics;
+class cISC3AdvisorForEnvironment;
+class cISC3AdvisorForPublicSafety;
 class cISC3AdvisorForTransportation;
 class cISC3AdvisorForUtilities;
 class cISC3BaseAdvisor;
@@ -151,9 +154,9 @@ public:
 
     virtual cISC3AdvisorForUtilities* GetUtilityAdvisor(void) = 0;
     virtual cISC3AdvisorForDemographics* GetDemographicsAdvisor(void) = 0;
-    virtual intptr_t GetPublicSafetyAdvisor(void) = 0;
-    virtual intptr_t GetEnvironmentAdvisor(void) = 0;
-    virtual intptr_t GetCityPlanningAdvisor(void) = 0;
+    virtual cISC3AdvisorForPublicSafety* GetPublicSafetyAdvisor(void) = 0;
+    virtual cISC3AdvisorForEnvironment* GetEnvironmentAdvisor(void) = 0;
+    virtual cISC3AdvisorForCityPlanning* GetCityPlanningAdvisor(void) = 0;
     virtual cISC3AdvisorForTransportation* GetTransportationAdvisor(void) = 0;
     virtual cISC3AdvisorForBudget* GetBudgetAdvisor(void) = 0;
     virtual cISC3PetitionerManager* GetPetitionerManager(void) = 0;
