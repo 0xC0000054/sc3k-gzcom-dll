@@ -19,6 +19,7 @@ class cISC3IndustrialLayer;
 class cISC3LandValueLayer;
 class cISC3NewCityInfo;
 class cISC3OccupantAttrib;
+class cISC3PetitionerManager;
 class cISC3ResidentialLayer;
 class cISCNScenarioLayer;
 class cISSStrtSimLayer;
@@ -151,7 +152,7 @@ public:
     virtual intptr_t GetCityPlanningAdvisor(void) = 0;
     virtual intptr_t GetTransportationAdvisor(void) = 0;
     virtual intptr_t GetBudgetAdvisor(void) = 0;
-    virtual intptr_t GetPetitionerManager(void) = 0;
+    virtual cISC3PetitionerManager* GetPetitionerManager(void) = 0;
 
     virtual cISC3CityLayer* GetSpecificLayer(uint32_t) = 0;
     virtual bool GetLayer(uint32_t, uint32_t, void**) = 0;

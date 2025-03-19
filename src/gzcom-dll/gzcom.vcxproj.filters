@@ -195,6 +195,12 @@
     <ClInclude Include="include\cISC3BaseAdvisor.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="include\cISC3PetitionerManager.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cISC3DepartmentBudget.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="src\cRZBaseString.cpp">
