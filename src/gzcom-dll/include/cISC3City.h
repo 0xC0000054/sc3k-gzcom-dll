@@ -16,6 +16,7 @@ class cISC3AdvisorForPublicSafety;
 class cISC3AdvisorForTransportation;
 class cISC3AdvisorForUtilities;
 class cISC3BaseAdvisor;
+class cISC3BuildingLayer;
 class cISC3BudgetLayer;
 class cISC3CityDefinition;
 class cISC3CityEnumerator;
@@ -127,7 +128,7 @@ public:
     virtual bool CreateOccupant(cISC3OccupantAttrib*, uint32_t, void**) = 0;
     virtual bool RemoveAllOccupants(void) = 0;
 
-    virtual intptr_t BuildingLayer(void) = 0;
+    virtual cISC3BuildingLayer* BuildingLayer(void) = 0;
     virtual intptr_t DirtBag(void) = 0;
     virtual intptr_t TransitLayer(void) = 0;
     virtual intptr_t TrafficLayer(void) = 0;
