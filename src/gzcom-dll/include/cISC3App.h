@@ -7,6 +7,7 @@ class cIGZResourceManager;
 class cIGZString;
 class cISC3AgentTypeTree;
 class cISC3AppPreferences;
+class cISC3AppStateManager;
 class cISC3City;
 class cISC3CityDefinition;
 class cISC3CitySchemeMgr;
@@ -33,7 +34,7 @@ public:
     virtual cIGZRadio* GetRadio(void) = 0;
     virtual intptr_t GetBoxX(void) = 0;
     virtual intptr_t GetSoundRenderServer(void) = 0;
-    virtual intptr_t GetAppStateManager(void) = 0;
+    virtual cISC3AppStateManager* GetAppStateManager(void) = 0;
     virtual cISC3AgentTypeTree* GetAppAgentTypeTree(void) = 0;
     virtual cISC3OccupantAttribCache* GetAppOccupantAttribCache(void) = 0;
     virtual cISC3CityDefinition* GetAppCityDefinition(void) = 0;

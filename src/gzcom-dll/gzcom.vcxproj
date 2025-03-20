@@ -112,6 +112,7 @@
     <ClInclude Include="include\cISC3AgentTypeTree.h" />
     <ClInclude Include="include\cISC3App.h" />
     <ClInclude Include="include\cISC3AppPreferences.h" />
+    <ClInclude Include="include\cISC3AppStateManager.h" />
     <ClInclude Include="include\cISC3BaseAdvisor.h" />
     <ClInclude Include="include\cISC3BudgetLayer.h" />
     <ClInclude Include="include\cISC3Building.h" />
@@ -136,6 +137,7 @@
     <ClInclude Include="include\cISC3ResidentialLayer.h" />
     <ClInclude Include="include\cISC3Valve.h" />
     <ClInclude Include="include\cISC3ValveLayer.h" />
+    <ClInclude Include="include\cISC3WinCityView.h" />
     <ClInclude Include="include\cISC3WorldLayer.h" />
     <ClInclude Include="include\cISC3ZoneLayer.h" />
     <ClInclude Include="include\cISCNScenarioLayer.h" />
