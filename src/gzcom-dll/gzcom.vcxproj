@@ -98,6 +98,7 @@
     <ClInclude Include="include\cIGZRadio.h" />
     <ClInclude Include="include\cIGZRadioStation.h" />
     <ClInclude Include="include\cIGZRegistry.h" />
+    <ClInclude Include="include\cIGZResourceKeyList.h" />
     <ClInclude Include="include\cIGZResourceManager.h" />
     <ClInclude Include="include\cIGZString.h" />
     <ClInclude Include="include\cIGZSystemService.h" />
