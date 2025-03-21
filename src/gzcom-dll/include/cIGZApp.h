@@ -55,4 +55,10 @@ class cIGZApp : public cIGZUnknown
 		 * Not used by our directors.
 		 */
 		virtual void AddApplicationServicesHere(void) = 0;
+
+		/**
+		 * A hardcoded point for EA/Maxis to initialize the cIGZRegistry service.
+		 * Not used by our directors.
+		 */
+		virtual bool LoadRegistry(void) = 0;
 };
