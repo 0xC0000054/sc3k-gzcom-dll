@@ -27,6 +27,7 @@ class cISC3IndustrialLayer;
 class cISC3LandValueLayer;
 class cISC3NewCityInfo;
 class cISC3OccupantAttrib;
+class cISC3OrdinanceLayer;
 class cISC3PetitionerManager;
 class cISC3ResidentialLayer;
 class cISCNScenarioLayer;
@@ -136,7 +137,7 @@ public:
     virtual cISC3ZoneLayer* ZoneLayer(void) = 0;
     virtual intptr_t PowerLayer(void) = 0;
     virtual intptr_t PlumbingLayer(void) = 0;
-    virtual intptr_t OrdinanceLayer(void) = 0;
+    virtual cISC3OrdinanceLayer* OrdinanceLayer(void) = 0;
     virtual cISC3BudgetLayer* BudgetLayer(void) = 0;
     virtual cISC3WorldLayer* WorldLayer(void) = 0;
     virtual cISSStrtSimLayer* StrtSimLayer(void) = 0;
