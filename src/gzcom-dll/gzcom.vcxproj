@@ -106,6 +106,7 @@
     <ClInclude Include="include\cIGZUnknown.h" />
     <ClInclude Include="include\cIGZUnknownEnumerator.h" />
     <ClInclude Include="include\cIGZUnknownList.h" />
+    <ClInclude Include="include\cIGZWin.h" />
     <ClInclude Include="include\cISC3AdvisorForBudget.h" />
     <ClInclude Include="include\cISC3AdvisorForCityPlanning.h" />
     <ClInclude Include="include\cISC3AdvisorForDemographics.h" />
@@ -147,6 +148,7 @@
     <ClInclude Include="include\cISC3ZoneLayer.h" />
     <ClInclude Include="include\cISCNScenarioLayer.h" />
     <ClInclude Include="include\cISSStrtSimLayer.h" />
+    <ClInclude Include="include\cIWinSC3.h" />
     <ClInclude Include="include\cRZAutoRefCount.h" />
     <ClInclude Include="include\cRZBaseString.h" />
     <ClInclude Include="include\cRZCOMDllDirector.h" />
