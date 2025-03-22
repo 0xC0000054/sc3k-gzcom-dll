@@ -1,6 +1,7 @@
 #pragma once
 #include "cIGZUnknown.h"
 
+class cIBoxX;
 class cIGZCheatCodeManager;
 class cIGZRadio;
 class cIGZResourceManager;
@@ -32,7 +33,7 @@ public:
 
     virtual cIGZCheatCodeManager* GetCheatCodeManager(void) = 0;
     virtual cIGZRadio* GetRadio(void) = 0;
-    virtual intptr_t GetBoxX(void) = 0;
+    virtual cIBoxX* GetBoxX(void) = 0;
     virtual intptr_t GetSoundRenderServer(void) = 0;
     virtual cISC3AppStateManager* GetAppStateManager(void) = 0;
     virtual cISC3AgentTypeTree* GetAppAgentTypeTree(void) = 0;

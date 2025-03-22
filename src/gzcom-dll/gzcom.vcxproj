@@ -79,6 +79,7 @@
   <ItemGroup>
     <ClInclude Include="include\cGZMessage.h" />
     <ClInclude Include="include\cGZResourceKey.h" />
+    <ClInclude Include="include\cIBoxX.h" />
     <ClInclude Include="include\cICSCitySimulator.h" />
     <ClInclude Include="include\cIGZApp.h" />
     <ClInclude Include="include\cIGZCheatCodeManager.h" />
