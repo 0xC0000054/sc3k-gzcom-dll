@@ -29,6 +29,7 @@ class cISC3NewCityInfo;
 class cISC3OccupantAttrib;
 class cISC3OrdinanceLayer;
 class cISC3PetitionerManager;
+class cISC3PollutionLayer;
 class cISC3ResidentialLayer;
 class cISCNScenarioLayer;
 class cISSStrtSimLayer;
@@ -142,7 +143,7 @@ public:
     virtual cISC3WorldLayer* WorldLayer(void) = 0;
     virtual cISSStrtSimLayer* StrtSimLayer(void) = 0;
     virtual cISC3DisasterLayer* DisasterLayer(void) = 0;
-    virtual intptr_t PollutionLayer(void) = 0;
+    virtual cISC3PollutionLayer* PollutionLayer(void) = 0;
     virtual intptr_t CrimeLayer(void) = 0;
     virtual intptr_t PoliceLayer(void) = 0;
     virtual intptr_t FireLayer(void) = 0;
