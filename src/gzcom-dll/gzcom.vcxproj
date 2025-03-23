@@ -123,6 +123,7 @@
     <ClInclude Include="include\cISC3App.h" />
     <ClInclude Include="include\cISC3AppPreferences.h" />
     <ClInclude Include="include\cISC3AppStateManager.h" />
+    <ClInclude Include="include\cISC3AuraLayer.h" />
     <ClInclude Include="include\cISC3BaseAdvisor.h" />
     <ClInclude Include="include\cISC3BudgetLayer.h" />
     <ClInclude Include="include\cISC3Building.h" />
