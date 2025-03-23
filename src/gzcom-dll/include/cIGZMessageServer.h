@@ -40,6 +40,10 @@ class cIGZMessageServer : public cIGZUnknown
 		 */
 		virtual bool RemoveNotification(cIGZMessageTarget* pTarget, uint32_t dwMessageID) = 0;
 
+		virtual uint32_t GetReferenceCountToMessageTarget(cIGZMessageTarget*) = 0; // No-op, returns 0
+		virtual uint32_t GetReferenceCountToMessageType(uint32_t) = 0; // No-op, returns 0
+		virtual uint32_t GetTotalReferenceCount() = 0; // No-op, returns 0
+
 		/**
 		 * @brief Posts a message to a specific message target
 		 */
