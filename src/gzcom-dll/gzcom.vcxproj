@@ -88,6 +88,8 @@
     <ClInclude Include="include\cIGZCmdLine.h" />
     <ClInclude Include="include\cIGZCOM.h" />
     <ClInclude Include="include\cIGZCOMDirector.h" />
+    <ClInclude Include="include\cIGZCursor.h" />
+    <ClInclude Include="include\cIGZCursorManager.h" />
     <ClInclude Include="include\cIGZDBRecord.h" />
     <ClInclude Include="include\cIGZDBSegment.h" />
     <ClInclude Include="include\cIGZFileSystem.h" />
