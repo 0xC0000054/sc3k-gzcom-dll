@@ -2,6 +2,7 @@
 #include "cIGZUnknown.h"
 
 class cGZMessage;
+class cIGZCanvas;
 class cIGZKeyboard;
 class cIGZString;
 class cIGZWin;
@@ -16,7 +17,7 @@ public:
     virtual bool SetMainWin(cIGZWin*) = 0;
     virtual bool GetMainWinAs(uint32_t, void**) const = 0;
 
-    virtual intptr_t GetCanvas(void) = 0; // Returns cIGZCanvas*
+    virtual cIGZCanvas* GetCanvas(void) = 0;
     virtual bool AddWindowToValidList(cIGZWin*) = 0;
     virtual bool RemoveWindowFromValidList(cIGZWin*) = 0;
     virtual void CleanUpWindowReferences(cIGZWin*) = 0;
