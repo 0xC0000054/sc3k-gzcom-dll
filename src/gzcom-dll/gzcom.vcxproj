@@ -108,6 +108,7 @@
     <ClInclude Include="include\cIGZUnknownEnumerator.h" />
     <ClInclude Include="include\cIGZUnknownList.h" />
     <ClInclude Include="include\cIGZWin.h" />
+    <ClInclude Include="include\cIGZWinMgr.h" />
     <ClInclude Include="include\cISC3AdvisorForBudget.h" />
     <ClInclude Include="include\cISC3AdvisorForCityPlanning.h" />
     <ClInclude Include="include\cISC3AdvisorForDemographics.h" />
