@@ -6,7 +6,7 @@ class cIGZString;
 class cIGZWin;
 class cISC3App;
 
-class cIWinSC3 : public cIGZUnknown
+class cISC3WinMain : public cIGZUnknown
 {
 public:
     virtual cIGZWin* AsIGZWin(void) = 0;

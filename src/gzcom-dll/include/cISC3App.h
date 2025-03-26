@@ -15,7 +15,7 @@ class cISC3CitySchemeMgr;
 class cISC3Internet;
 class cISC3OccupantAttribCache;
 class cISC3WinCityView;
-class cIWinSC3;
+class cISC3WinMain;
 
 static const uint32_t GZIID_cISC3App = 0xfa2;
 
@@ -53,7 +53,7 @@ public:
     virtual void FixStartupResolutionValuesIfNeeded(uint32_t&, uint32_t&) = 0;
     virtual bool IsStartupResolutionOK(uint32_t, uint32_t) = 0;
 
-    virtual cIWinSC3* GetSC3MainWindow(void) = 0;
+    virtual cISC3WinMain* GetSC3MainWindow(void) = 0;
     virtual cISC3WinCityView* GetISC3WinCityView(void) = 0;
     virtual void SetWinCityView(cISC3WinCityView*) = 0;
     virtual cISC3Internet* GetSC3Internet(void) = 0;

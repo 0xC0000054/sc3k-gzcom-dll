@@ -252,9 +252,6 @@
     <ClInclude Include="include\cIGZWin.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="include\cIWinSC3.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="include\cIGZKeyboard.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -274,6 +271,9 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="include\cISC3AuraLayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="include\cISC3WinMain.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
