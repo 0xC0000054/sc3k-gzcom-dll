@@ -24,9 +24,9 @@ Only a small number of the game's interfaces have been decoded, and the message 
 
 # License
 
-This project is licensed under the terms of the MIT License.    
+This project is licensed under the [GNU Lesser General Public License, version 2.1](https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html) or (at your option) any later version published by the Free Software Foundation.   
 See [LICENSE.txt](LICENSE.txt) for more information.
 
 ## 3rd party code
 
-[gzcom-dll](https://github.com/nsgomez/gzcom-dll) - MIT License.    
+[gzcom-dll](https://github.com/nsgomez/gzcom-dll) - GNU Lesser General Public License, version 2.1 or later.    
