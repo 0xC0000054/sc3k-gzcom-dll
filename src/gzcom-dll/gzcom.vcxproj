@@ -137,6 +137,8 @@
     <ClInclude Include="include\cISC3CitySchemeMgr.h" />
     <ClInclude Include="include\cISC3CommercialLayer.h" />
     <ClInclude Include="include\cISC3DepartmentBudget.h" />
+    <ClInclude Include="include\cISC3DirtBag.h" />
+    <ClInclude Include="include\cISC3DirtGenerator.h" />
     <ClInclude Include="include\cISC3DisasterLayer.h" />
     <ClInclude Include="include\cISC3DisasterManager.h" />
     <ClInclude Include="include\cISC3IndustrialLayer.h" />

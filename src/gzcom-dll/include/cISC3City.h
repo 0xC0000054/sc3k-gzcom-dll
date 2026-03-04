@@ -3,7 +3,7 @@
  *
  * cISC3City.h
  *
- * Copyright (C) 2024, 2025 Nicholas Hayes
+ * Copyright (C) 2024, 2025, 2026 Nicholas Hayes
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -44,6 +44,8 @@ class cISC3CityEnumerator;
 class cISC3CityLayer;
 class cISC3CommercialLayer;
 class cISC3DisasterLayer;
+class cISC3DirtBag;
+class cISC3DirtGenerator;
 class cISC3IndustrialLayer;
 class cISC3LandValueLayer;
 class cISC3NewCityInfo;
@@ -115,7 +117,7 @@ public:
     virtual int32_t GetDifficulty(void) = 0;
     virtual void SetDifficulty(int32_t) = 0;
 
-    virtual intptr_t DirtGenerator(void) = 0;
+    virtual cISC3DirtGenerator* DirtGenerator(void) = 0;
     virtual bool DoNewCity(bool) = 0;
     virtual bool DoLoadCity(bool) = 0;
     virtual bool DoSaveCity(bool) = 0;
@@ -152,7 +154,7 @@ public:
     virtual bool RemoveAllOccupants(void) = 0;
 
     virtual cISC3BuildingLayer* BuildingLayer(void) = 0;
-    virtual intptr_t DirtBag(void) = 0;
+    virtual cISC3DirtBag* DirtBag(void) = 0;
     virtual intptr_t TransitLayer(void) = 0;
     virtual intptr_t TrafficLayer(void) = 0;
     virtual intptr_t FloraLayer(void) = 0;
