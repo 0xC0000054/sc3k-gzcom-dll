@@ -52,7 +52,7 @@ public:
     virtual uint32_t TypeId(void) const = 0;
     virtual cISC3CitySpriteAttrib* GetSpriteAttrib(uint32_t) = 0;
     virtual cISC3CitySpriteAttrib* GetSpriteAttrib(void) = 0;
-    virtual cISC3CitySpriteAttrib* GetOriginalSpriteAttrib(void) = 0; // Returns cISC3CitySpriteAttrib*
+    virtual cISC3CitySpriteAttrib* GetOriginalSpriteAttrib(void) = 0;
     virtual uint32_t GetDefaultLayerFlag(void) const = 0;
     virtual bool SetDefaultLayerFlag(uint32_t) = 0;
     virtual intptr_t GetPeopleProducerAttrib(void) = 0;
