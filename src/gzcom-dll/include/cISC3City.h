@@ -50,6 +50,7 @@ class cISC3IndustrialLayer;
 class cISC3LandValueLayer;
 class cISC3NewCityInfo;
 class cISC3OccupantAttrib;
+class cISC3OccupantManager;
 class cISC3OrdinanceLayer;
 class cISC3PetitionerManager;
 class cISC3PollutionLayer;
@@ -145,9 +146,9 @@ public:
     virtual float MeterToWorld(float) const = 0;
     virtual float FeetToWorld(float) const = 0;
 
-    virtual intptr_t SurfaceOccupantManager(void) = 0;
-    virtual intptr_t UndergroundOccupantManagerLevelOne(void) = 0;
-    virtual intptr_t UndergroundOccupantManagerLevelTwo(void) = 0;
+    virtual cISC3OccupantManager* SurfaceOccupantManager(void) = 0;
+    virtual cISC3OccupantManager* UndergroundOccupantManagerLevelOne(void) = 0;
+    virtual cISC3OccupantManager* UndergroundOccupantManagerLevelTwo(void) = 0;
     virtual intptr_t AnimOccupantManager(void) = 0;
     virtual bool CreateOccupant(cGZResourceKey&, uint32_t, void**) = 0;
     virtual bool CreateOccupant(cISC3OccupantAttrib*, uint32_t, void**) = 0;

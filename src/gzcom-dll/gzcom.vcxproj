@@ -131,6 +131,7 @@
     <ClInclude Include="include\cISC3City.h" />
     <ClInclude Include="include\cISC3CityAgent.h" />
     <ClInclude Include="include\cISC3CityAgentType.h" />
+    <ClInclude Include="include\cISC3CityChangeReceiver.h" />
     <ClInclude Include="include\cISC3CityDefinition.h" />
     <ClInclude Include="include\cISC3CityLayer.h" />
     <ClInclude Include="include\cISC3CityLayerManipulator.h" />
@@ -144,7 +145,12 @@
     <ClInclude Include="include\cISC3IndustrialLayer.h" />
     <ClInclude Include="include\cISC3Internet.h" />
     <ClInclude Include="include\cISC3LandValueLayer.h" />
+    <ClInclude Include="include\cISC3OccManIterator.h" />
+    <ClInclude Include="include\cISC3OccManIteratorTest.h" />
+    <ClInclude Include="include\cISC3Occupant.h" />
+    <ClInclude Include="include\cISC3OccupantAttrib.h" />
     <ClInclude Include="include\cISC3OccupantAttribCache.h" />
+    <ClInclude Include="include\cISC3OccupantManager.h" />
     <ClInclude Include="include\cISC3OrdinanceLayer.h" />
     <ClInclude Include="include\cISC3PetitionerManager.h" />
     <ClInclude Include="include\cISC3PluginBuildingMgr.h" />
