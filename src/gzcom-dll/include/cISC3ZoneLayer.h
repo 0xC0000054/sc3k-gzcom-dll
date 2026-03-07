@@ -20,37 +20,18 @@
  */
 
 #pragma once
-#include "cIGZUnknown.h"
+#include "cISC3CityCellMap.h"
 
 class cGZResourceKey;
-class cIGZDBSerialRecord;
-class cISC3City;
 class cISC3BuildingAttrib;
 class cISC3ZoneDeveloper;
 class cSC3CityBounds;
 struct sIGZPointXZUint32;
 struct sIGZRectUint32;
 
-class cISC3ZoneLayer : public cIGZUnknown
+class cISC3ZoneLayer : public cISC3CityCellMap<uint8_t>
 {
 public:
-    virtual uint32_t CellCountX(void) const = 0;
-    virtual uint32_t CellCountZ(void) const = 0;
-
-    virtual void GetValueSint32(uint32_t, uint32_t, int32_t&) const = 0;
-    virtual bool InBounds(uint32_t, uint32_t) const = 0;
-    virtual bool InBounds(uint32_t, uint32_t, uint32_t, uint32_t) const = 0;
-    virtual bool ValidRect(uint32_t, uint32_t, uint32_t, uint32_t) const = 0;
-    virtual bool SerialRead(cIGZDBSerialRecord&) = 0;
-    virtual bool SerialWrite(cIGZDBSerialRecord&) const = 0;
-    virtual bool Init(cISC3City*, uint8_t const&) = 0;
-    virtual bool Shutdown(void) = 0;
-
-    virtual void GetValue(uint32_t, uint32_t, uint8_t&) const = 0;
-    virtual void SetValue(uint32_t, uint32_t, uint8_t const&) = 0;
-    virtual void SetAllCells(uint8_t const&) = 0;
-    virtual void SetValue(uint32_t, uint32_t, uint32_t, uint32_t, uint8_t const&) = 0;
-
     virtual uint32_t GetZoneCount(uint8_t) = 0;
     virtual uint32_t GetUndevelopedTileCount(void) = 0;
     virtual uint32_t GetUndevelopedTileCount(uint8_t) = 0;

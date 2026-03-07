@@ -20,30 +20,14 @@
  */
 
 #pragma once
-#include "cIGZUnknown.h"
+#include "cISC3CityCellMap.h"
 
-class cIGZDBSerialRecord;
-class cISC3City;
 class cISC3CityAgentType;
 class cISC3CityLayerManipulator;
 
-class cISC3PollutionLayer : public cIGZUnknown
+class cISC3PollutionLayer : public cISC3CityCellMap<uint32_t>
 {
 public:
-    virtual uint32_t CellCountX(void) const = 0;
-    virtual uint32_t CellCountZ(void) const = 0;
-    virtual void GetValueSint32(uint32_t, uint32_t, int32_t&) const = 0;
-    virtual bool InBounds(uint32_t, uint32_t) const = 0;
-    virtual bool InBounds(uint32_t, uint32_t, uint32_t, uint32_t) const = 0;
-    virtual bool ValidRect(uint32_t, uint32_t, uint32_t, uint32_t) const = 0;
-    virtual bool SerialRead(cIGZDBSerialRecord&) = 0;
-    virtual bool SerialWrite(cIGZDBSerialRecord&) const = 0;
-    virtual bool Init(cISC3City*, uint32_t const&) = 0;
-    virtual bool Shutdown(void) = 0;
-    virtual void GetValue(uint32_t, uint32_t, uint32_t&) const = 0;
-    virtual void SetValue(uint32_t, uint32_t, uint32_t const&) = 0;
-    virtual void SetAllCells(uint32_t const&) = 0;
-    virtual void SetValue(uint32_t, uint32_t, uint32_t, uint32_t, uint32_t const&) = 0;
     virtual bool Init(cISC3City*) = 0;
     virtual bool SimulationBegin(void) = 0;
     virtual bool GetManipulator(cISC3CityAgentType const&, cISC3CityLayerManipulator**, int32_t&) = 0;
