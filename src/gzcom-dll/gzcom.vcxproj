@@ -139,11 +139,13 @@
     <ClInclude Include="include\cISC3CityLayerManipulator.h" />
     <ClInclude Include="include\cISC3CitySchemeMgr.h" />
     <ClInclude Include="include\cISC3CommercialLayer.h" />
+    <ClInclude Include="include\cISC3CrimeLayer.h" />
     <ClInclude Include="include\cISC3DepartmentBudget.h" />
     <ClInclude Include="include\cISC3DirtBag.h" />
     <ClInclude Include="include\cISC3DirtGenerator.h" />
     <ClInclude Include="include\cISC3DisasterLayer.h" />
     <ClInclude Include="include\cISC3DisasterManager.h" />
+    <ClInclude Include="include\cISC3FireLayer.h" />
     <ClInclude Include="include\cISC3IndustrialLayer.h" />
     <ClInclude Include="include\cISC3Internet.h" />
     <ClInclude Include="include\cISC3LandValueLayer.h" />
@@ -156,6 +158,7 @@
     <ClInclude Include="include\cISC3OrdinanceLayer.h" />
     <ClInclude Include="include\cISC3PetitionerManager.h" />
     <ClInclude Include="include\cISC3PluginBuildingMgr.h" />
+    <ClInclude Include="include\cISC3PoliceLayer.h" />
     <ClInclude Include="include\cISC3PollutionLayer.h" />
     <ClInclude Include="include\cISC3ResidentialLayer.h" />
     <ClInclude Include="include\cISC3Valve.h" />
