@@ -27,6 +27,7 @@ class cIGZWin;
 class cRZRect;
 class cISC3City;
 class cISC3CityView;
+class cISC3CityViewIso;
 class cISLCityViewHandler;
 
 class cISC3WinCityView : public cIGZUnknown
@@ -72,8 +73,8 @@ public:
     virtual intptr_t GetViewManager(void) = 0;
     virtual intptr_t GetCellCursorMap(void) const = 0;
     virtual void AnimationPause(bool) = 0;
-    virtual intptr_t GetCurrentView(void) = 0;
-    virtual intptr_t GetIsoView(void) = 0;
+    virtual cISC3CityView* GetCurrentView(void) = 0;
+    virtual cISC3CityViewIso* GetIsoView(void) = 0;
     virtual bool SetCurrentView(cISC3CityView*) = 0;
     virtual bool SwitchHandler(int32_t, cISLCityViewHandler*) = 0;
 };
