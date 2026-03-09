@@ -3,7 +3,7 @@
  *
  * cIGZCanvas.h
  *
- * Copyright (C) 2025 Nicholas Hayes
+ * Copyright (C) 2025, 2026 Nicholas Hayes
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -36,7 +36,7 @@ public:
     virtual bool Restore(void) = 0;
 
     virtual void SetArea(int32_t, int32_t, int32_t, int32_t) = 0;
-    virtual cRZRect* GetArea(void) const = 0;
+    virtual void GetArea(cRZRect&) const = 0;
     virtual void ShowWindow(void) = 0;
     virtual void HideWindow(void) = 0;
     virtual void SetCaption(cIGZString const&) = 0;
