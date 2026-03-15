@@ -26,6 +26,7 @@ class cIGZDBSegment;
 class cIGZWin;
 class cRZRect;
 class cISC3City;
+class cISC3CitySpriteManager;
 class cISC3CityView;
 class cISC3CityViewIso;
 class cISLCityViewHandler;
@@ -70,7 +71,7 @@ public:
     virtual bool DefOnHotKey(uint32_t, uint32_t, uint32_t) = 0;
 
     virtual void CameraGoHome(void) = 0;
-    virtual intptr_t GetViewManager(void) = 0;
+    virtual cISC3CitySpriteManager* GetViewManager(void) = 0;
     virtual intptr_t GetCellCursorMap(void) const = 0;
     virtual void AnimationPause(bool) = 0;
     virtual cISC3CityView* GetCurrentView(void) = 0;

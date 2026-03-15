@@ -22,10 +22,12 @@
 #pragma once
 #include "cISC3CityView.h"
 
+class cISC3CitySpriteManager;
+
 class cISC3CityViewIso : public cISC3CityView
 {
 public:
-	virtual intptr_t GetCitySpriteManager() = 0; // Returns cISC3CitySpriteManager*
+	virtual cISC3CitySpriteManager* GetCitySpriteManager() = 0;
 	virtual intptr_t GetCitySpriteCellMap() = 0; // Returns cISC3CitySpriteCellMap*
 	virtual bool DoScreenShake(int32_t, int32_t, int32_t, int32_t, bool, int32_t) = 0;
 	virtual bool IsScreenShaking() = 0;

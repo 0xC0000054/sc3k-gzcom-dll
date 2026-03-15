@@ -138,6 +138,7 @@
     <ClInclude Include="include\cISC3CityLayer.h" />
     <ClInclude Include="include\cISC3CityLayerManipulator.h" />
     <ClInclude Include="include\cISC3CitySchemeMgr.h" />
+    <ClInclude Include="include\cISC3CitySpriteManager.h" />
     <ClInclude Include="include\cISC3CityView.h" />
     <ClInclude Include="include\cISC3CityViewIso.h" />
     <ClInclude Include="include\cISC3CommercialLayer.h" />
