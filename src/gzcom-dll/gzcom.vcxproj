@@ -158,6 +158,7 @@
     <ClInclude Include="include\cISC3OccupantAttrib.h" />
     <ClInclude Include="include\cISC3OccupantAttribCache.h" />
     <ClInclude Include="include\cISC3OccupantManager.h" />
+    <ClInclude Include="include\cISC3OccupantManagerAnim.h" />
     <ClInclude Include="include\cISC3OrdinanceLayer.h" />
     <ClInclude Include="include\cISC3PetitionerManager.h" />
     <ClInclude Include="include\cISC3PluginBuildingMgr.h" />
