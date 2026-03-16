@@ -29,6 +29,7 @@ class cISC3City;
 class cISC3CitySpriteManager;
 class cISC3CityView;
 class cISC3CityViewIso;
+class cISC3WinCityViewCellCursor;
 class cISLCityViewHandler;
 
 class cISC3WinCityView : public cIGZUnknown
@@ -72,7 +73,7 @@ public:
 
     virtual void CameraGoHome(void) = 0;
     virtual cISC3CitySpriteManager* GetViewManager(void) = 0;
-    virtual intptr_t GetCellCursorMap(void) const = 0;
+    virtual cISC3WinCityViewCellCursor* GetCellCursorMap(void) const = 0;
     virtual void AnimationPause(bool) = 0;
     virtual cISC3CityView* GetCurrentView(void) = 0;
     virtual cISC3CityViewIso* GetIsoView(void) = 0;

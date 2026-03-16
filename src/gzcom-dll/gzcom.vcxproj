@@ -167,6 +167,7 @@
     <ClInclude Include="include\cISC3Valve.h" />
     <ClInclude Include="include\cISC3ValveLayer.h" />
     <ClInclude Include="include\cISC3WinCityView.h" />
+    <ClInclude Include="include\cISC3WinCityViewCellCursor.h" />
     <ClInclude Include="include\cISC3WinMain.h" />
     <ClInclude Include="include\cISC3WorldLayer.h" />
     <ClInclude Include="include\cISC3ZoneLayer.h" />
