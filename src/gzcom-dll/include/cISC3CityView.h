@@ -23,6 +23,7 @@
 #include "cIGZUnknown.h"
 
 class cIGZDBSegment;
+class cISC3AnimationTickManager;
 class cISC3App;
 class cISC3City;
 class cSC3CityBounds;
@@ -67,7 +68,7 @@ public:
 
 	virtual void SetAnimFrequency(float const&) = 0;
 	virtual void GetAnimFrequency(float&) = 0;
-	virtual intptr_t GetAnimTickManager() = 0; // Returns cISC3AnimationTickManager*
+	virtual cISC3AnimationTickManager* GetAnimTickManager() = 0;
 	virtual cISC3OccupantManager* CurrentOccupantManager() = 0;
 	virtual bool PerformPick(int32_t, int32_t, cSC3CityCoord&, bool) = 0;
 	virtual bool GetOccupantsInVolume(cSC3CityBounds const&, cISC3Occupant**, uint32_t&, bool, bool unaligned) = 0;

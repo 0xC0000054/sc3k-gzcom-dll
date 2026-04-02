@@ -120,6 +120,7 @@
     <ClInclude Include="include\cISC3AdvisorForTransportation.h" />
     <ClInclude Include="include\cISC3AdvisorForUtilities.h" />
     <ClInclude Include="include\cISC3AgentTypeTree.h" />
+    <ClInclude Include="include\cISC3AnimationTickManager.h" />
     <ClInclude Include="include\cISC3App.h" />
     <ClInclude Include="include\cISC3AppPreferences.h" />
     <ClInclude Include="include\cISC3AppStateManager.h" />
