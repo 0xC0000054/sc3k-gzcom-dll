@@ -59,6 +59,7 @@ class cISC3PetitionerManager;
 class cISC3PoliceLayer;
 class cISC3PollutionLayer;
 class cISC3ResidentialLayer;
+class cISC3WeatherLayer;
 class cISCNScenarioLayer;
 class cISSStrtSimLayer;
 class cISC3WorldLayer;
@@ -180,7 +181,7 @@ public:
     virtual cISC3IndustrialLayer* IndustrialLayer(void) = 0;
     virtual cISC3LandValueLayer* LandValueLayer(void) = 0;
     virtual intptr_t NeighborsLayer(void) = 0;
-    virtual intptr_t WeatherLayer(void) = 0;
+    virtual cISC3WeatherLayer* WeatherLayer(void) = 0;
     virtual intptr_t DemolitionLayer(void) = 0;
 
     virtual cISC3AdvisorForUtilities* GetUtilityAdvisor(void) = 0;
