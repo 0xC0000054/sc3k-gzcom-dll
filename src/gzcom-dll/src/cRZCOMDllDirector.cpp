@@ -3,7 +3,7 @@
  *
  * cRZCOMDllDirector.cpp
  *
- * Copyright (C) 2024 Nicholas Hayes
+ * Copyright (C) 2024, 2026 Nicholas Hayes
  *
  * This library is free software; you can redistribute it and/or
  * modify it under the terms of the GNU Lesser General Public
@@ -32,10 +32,6 @@
 
 extern "C" EXPORT cIGZCOMDirector* GZDllGetGZCOMDirector(void) {
 	return static_cast<cIGZCOMDirector*>(RZGetCOMDllDirector());
-}
-
-cIGZCOM* GZCOM(void) {
-	return RZGetCOMDllDirector()->GZCOM();
 }
 
 cRZCOMDllDirector::cRZCOMDllDirector(void)
